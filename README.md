@@ -5,7 +5,14 @@ I was trying to enable openvpn on my router using operwrt firmware. I ran into f
 
 Step # 1 - Flash router with openwrt official image.
 
+go to URL - https://openwrt.org/toh/start
+
+
 Step # 2 - Enable openvpn in the router.
+opkg update
+opkg install openvpn-openssl luci-app-openvpn
+openvpn –version
+
 
 Step # 3 - Download openvpn configuration from your vpn provider.
 
