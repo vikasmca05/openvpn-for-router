@@ -12,7 +12,7 @@ You will see the list of images available. Select and download the correct image
 
 
 Go to Luci GUI of your router and flash the image on your router.
-![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Screenshot%20from%202020-04-20%2000-04-41.png)
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/FlashOperation.png)
 
 
 #### Step # 2 - Enable openvpn in the router.
