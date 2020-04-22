@@ -8,17 +8,21 @@ I was trying to enable openvpn on my router using operwrt firmware. I ran into f
 go to URL - https://openwrt.org/toh/start
 
 ![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Screenshot%20from%202020-04-20%2000-04-41.png)
-Format: ![Download builds](url)
+Format: ![Download builds]
 
 #### Step # 2 - Enable openvpn in the router.
-opkg update
-opkg install openvpn-openssl luci-app-openvpn
-openvpn –version
+* opkg update
+* opkg install openvpn-openssl luci-app-openvpn
+* openvpn –version
 
 
 Step # 3 - Download openvpn configuration from your vpn provider.
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/OpenVPNOptions.png)
+Format: ![Download builds]
 
 Step # 4 - Copy credentials from vpn provider. Link auth credential file location to openvpn.
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/VPNOption.png)
+Format: ![Download builds]
 
 Step # 5 - Change access mode on the custom auth file.
 
