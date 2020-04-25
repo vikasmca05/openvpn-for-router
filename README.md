@@ -49,5 +49,19 @@ Once openvpn is installed, then VPN tab will be show in the home screen of the L
  chmod <> /etc/openvpn/custom/auth.txt
 
 #### Step # 6 - Create VPN Interface.
+* Create new VPN interface from Luci GUI. Network -> Interfaces.
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Create%20Interface.png)
 
-#### Step # 7 - Verify.
+
+#### Step # 7 - Set the Firewall rule.
+* Set new firewall rule from Luci GUI. Network -> Firewall
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Set%20Firewall%20Rule.png)
+
+#### Step # 8 - Assosciate Firewall rule to VPN Interface.
+* Map the firewall rule as created in last step to the VPN interface.
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Assosciate%20Firewall%20to%20INterface.png)
+
+#### Step # 9 - Complete setup and Start VPN conncetion.
+* Connection is now complete.
+* Go to VPN->OpenVPN and start the openvpn configured VPN service.
+![GitHub Logo](https://github.com/vikasmca05/openvpn-for-router/blob/master/Start%20VPN.png)
