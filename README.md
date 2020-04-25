@@ -45,7 +45,9 @@ Once openvpn is installed, then VPN tab will be show in the home screen of the L
 
 
 #### Step # 5 - Change access mode on the custom auth file.
+* change access mode of the auth file to be accessed by openvpn 
+ chmod <> /etc/openvpn/custom/auth.txt
 
-#### Step # 6 - Change DNS Settings.
+#### Step # 6 - Create VPN Interface.
 
 #### Step # 7 - Verify.
